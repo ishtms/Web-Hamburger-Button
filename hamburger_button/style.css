@@ -1,0 +1,74 @@
+/* Img Link = */
+
+/* reseting all to 0 */
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: url("https://www.smashingmagazine.com/wp-content/uploads/2015/06/10-dithering-opt.jpg");
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    font-family: Arial;
+    text-align: left;
+    padding: 0 20px;
+    background: #009688;
+    color: #f5f5f5;
+    line-height: 50px;
+    box-shadow: 0 2px 1px #333;
+}
+h1 span{
+    font-size: 14px;
+    float: right;
+}
+h1 span a:hover{
+    color: #f5f5f5;background-position-x: x
+}
+.screen {
+    position: fixed;
+    top: 0px;
+    height: 100vh;
+    width: 100%;
+    background: rgba(0,0,0,.5);
+    display: none;
+}
+.call{
+    position: fixed;
+    bottom: 20px; right: 20px;
+    width: 50px;
+    min-height: 50px;
+    background: #bdc3c7;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px 1px #333;
+}
+.call-menu{
+    line-height: 50px;
+    text-align: center;
+    background: #95a5a6;
+    color: #333;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.call-menu:hover{
+    color: white-space; background: #00796b;;
+}
+.call-items{
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    display: none;
+    color: #333;
+    backgrund: ;
+    border-radius: 25px;
+    transition: background .5s, color .5s;
+}
+.call-items:hover{
+    background: #009688;
+    color: #f5f5f5;
+}
+.shown{
+    display: block;
+}
